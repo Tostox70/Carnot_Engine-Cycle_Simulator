@@ -1,0 +1,87 @@
+
+Documentation: Formulas and Step Integration Method
+
+1. Formulas
+
+1.1 Gas Volume
+
+Volumes for the Carnot cycle stages:
+	•	Stage 1: V1 = 0.01 m^3
+	•	Stage 2: V2 = 2 * V1
+	•	Stage 3: V3 = V2 * (TH / TC)^(1 / gamma)
+	•	Stage 4: V4 = V1 * (TH / TC)^(1 / gamma)
+
+Where:
+	•	TH = Hot reservoir temperature
+	•	TC = Cold reservoir temperature
+	•	gamma = Heat capacity ratio (5/3 for monoatomic, 7/5 diatomic, 4/3 triatomic gases)
+
+⸻
+
+1.2 Pressure
+
+Calculated using the ideal gas law:
+
+P = n * R * T / V
+
+Where:
+	•	n = Number of moles
+	•	R = 8.314 J/mol·K
+	•	T = Temperature in Kelvin
+	•	V = Volume
+
+⸻
+
+1.3 Heat Transfer
+	•	Heat absorbed: QH = n * R * TH * ln(V2 / V1)
+	•	Heat released: QC = n * R * TC * ln(V4 / V3)
+
+⸻
+
+1.4 Work Done
+	•	Work by the gas: Wgas = QH + W2, where W2 = n * R / gamma * (TH - TC)
+	•	Work by surroundings: Wsurr = QC + W4, where W4 = n * R / gamma * (TC - TH)
+
+⸻
+
+1.5 Efficiency
+
+Carnot efficiency: eta(n) = Wtot / QH * 100, where Wtot = |QH| - |QC|
+
+————––––————––––
+
+2. Step Integration Methods
+
+2.1 Time-Based Integration
+
+The simulation uses time-based step integration to calculate the state of the system at each stage of the Carnot cycle. 
+The method divides the cycle into discrete steps based on the target FPS and time per stage.
+
+Step size: deltaT = timePerStage / frameRate
+
+Where:
+	•	timePerStage = Duration of each stage in seconds (fixed to 2sec)
+	•	frameRate = Target frames per second (fixed to 60fps)
+
+⸻
+
+2.2 Stage-Based Integration
+
+Four stages of the Carnot cycle:
+	1.	Isothermal Expansion – Heat absorbed, gas expands at constant temperature
+	2.	Adiabatic Expansion – Gas expands without heat exchange; temperature decreases
+	3.	Isothermal Compression – Heat released, gas compresses at constant temperature
+	4.	Adiabatic Compression – Gas compresses without heat exchange; temperature increases
+
+	•	Step size dynamically adjusted based on stage and duration
+
+⸻
+
+2.3 Dynamic Updates
+	•	User inputs: adjust temperature, number of moles, and gamma
+	•	Graphs: update PV and TS curves at each step
+	•	Visuals: graphical elements updated based on current state
+
+
+
+**ADDITIONAL INFORMATION WILL BE ADDED AS NEEDED**
