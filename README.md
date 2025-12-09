@@ -3,7 +3,7 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 <br><br>
 
 **YOU CAN DOWNLOAD IT
-[HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/tag/v1.0)**
+[HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/tag/v1.0/cE_Sim.zip)**
 
 This release is currently available only for Windows systems. Other platforms may be supported in future versions.
 
