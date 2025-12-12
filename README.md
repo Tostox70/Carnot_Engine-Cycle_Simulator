@@ -7,6 +7,8 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 
 This release is currently available only for Windows systems. Other platforms may be supported in future versions.
 
+(Full code is under cE folder)
+
 <br><br>
 **FEATURES** (v1.0)
 
