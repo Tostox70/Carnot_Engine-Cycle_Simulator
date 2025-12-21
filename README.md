@@ -3,7 +3,7 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 <br><br>
 
 **YOU CAN DOWNLOAD IT (WINDOWS)
-[HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v.1.0.1/cE_zip.zip)**
+[HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.1/cE_Sim_zipped.zip)**
 
 
 **YOU CAN DOWNLOAD IT (MacOS)
@@ -37,6 +37,8 @@ xattr -dr com.apple.quarantine ~/Downloads/cE.app
 -Adjustable parameters:
 
 -Hot and cold reservoir temperatures
+
+-volume ratios between v1 and v2
 
 -Number of moles
 
