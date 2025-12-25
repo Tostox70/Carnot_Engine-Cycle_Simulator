@@ -5,27 +5,9 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 **YOU CAN DOWNLOAD IT (WINDOWS)
 [HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.1/cE_Sim_zipped.zip)**
 
-
-**YOU CAN DOWNLOAD IT (MacOS)
-[HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.0.Mac/cE-macOS.zip)**
+**FOR MAC DOWNLOAD, GO TO Release SECTION**
 
 (Full code is under the cE source code)
-
-<br><br>
-**FOR MAC USERS**
-
-macOS may block the app with a message saying it is damaged.
-This is expected for unsigned apps.
-
-Instructions:
-
-1-Open Terminal
-
-2-If the app is in your Downloads folder, run:
-
-xattr -dr com.apple.quarantine ~/Downloads/cE.app
-
-3-You can now open cE.app normally (double-click)
 
 <br><br>
 **FEATURES** (v1.0)
