@@ -5,7 +5,7 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 **YOU CAN DOWNLOAD IT (WINDOWS)
 [HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.1/cE_Sim_zipped.zip)**
 
-**FOR MAC DOWNLOAD, GO TO Release SECTION**
+**FOR MAC DOWNLOAD, GO TO Releases SECTION**
 
 (Full code is under the cE source code)
 
