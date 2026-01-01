@@ -175,7 +175,6 @@ public static class Points
                    deltaEntropy = 0;
                    entropy = 5;
                    isComplete = true;
-                   // Keep entropy accumulated for realistic behavior
                }
                break;
        }
@@ -221,10 +220,9 @@ public static class Points
        currentStepSize = GetTimeBasedStepSize(1, timePerStage, frameRate);
        framesPerStage = (int)(timePerStage * frameRate);
 
-       // Reset to exact starting values
        gasVolumeNow = gasVolume1;
        gasTemp = TH;
-       entropy = 5f; // Reset entropy if desired
+       entropy = 5f; 
    }
 
    private static double GetTimeBasedStepSize(int stage, float timePerStage, float frameRate)
@@ -243,7 +241,6 @@ public static class Points
        return volumeRange / framesPerStage; // volume change per frame
    }
 
-   // Add this property to Points.cs
    public static int GetCurrentStage()
    {
        return stage;
@@ -281,4 +278,5 @@ public static class Points
            Reset();
        }
    }
+
 }
