@@ -72,4 +72,30 @@ public static class Functions
 
         return new Color(red, green, blue, (byte)85);
     }
+
+    public static bool TryGetNumberKeyAsFloat(GraphManager graph, out float seconds)
+    {
+        int screenWidth = Program.screenWidth;
+
+        seconds = 0f;
+        int key = GetKeyPressed();
+        switch (key)
+        {
+            case (int)KeyboardKey.One:
+                seconds = 0.5f;
+                break;
+            case (int)KeyboardKey.Two:
+                seconds = 2f;
+                break;
+            case (int)KeyboardKey.Three:
+                seconds = 5f;
+                break;
+            default:
+                return false;
+        }
+
+        graph.ClearPoints();
+        Points.Reset();
+        return true;
+    }
 }
