@@ -10,7 +10,7 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 (Full code is under the cE source code)
 
 <br><br>
-**FEATURES** (v1.0)
+**FEATURES** (v1.3)
 
 -Real-time PV and TS graphs
 
@@ -26,14 +26,18 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 
 -Heat capacity ratio (γ)
 
+-cycle duration in seconds.
+
 -Realistic (not guaranteed perfect) calculations like total work and thermal efficiency
 
--Clear UI that reacts to user input  
+-Clear UI that reacts to user input
 
+-number of calculations per cycle shown
+<br><br>
 
 **HOW TO USE**
 
--Hover over any parameter box (temperature, moles, γ).
+-Hover over any parameter box (temperature, ratio, moles, γ).
 
 -The value turns gray.
 
@@ -41,20 +45,23 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 
 -Press Left / Down arrow to decrease it.
 
--The PV/TS graphs and piston update in real time.
+-Press spacebar to pause/resume the cycle
 
+-Press 1,2, or 3 key to change the cycle duration to 2,8 or 20 seconds respectively.
+<br><br>
 
 **TECH STACK**
 
 -C# (.NET)
 
 -Raylib (raylib-cs)
-
+<br><br>
 
 **FUTURE DEVELOPMENT**
 
--More features are planned. Your feedback and requests will guide what comes next.
+-More features are planned.
+<br><br>
 
-**Credits**
+**CREDITS**
 
 Thanks to AngeTheGreat and AXgamesoft for inspiring me to make this simulator.
