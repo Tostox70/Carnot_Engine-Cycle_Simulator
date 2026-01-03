@@ -1,0 +1,11 @@
+- It is advised to use VS Code to run the files, since the process with other IDEs are unknown (to me)
+- Install .NET Install tool and C# extensions
+- Create an empty folder and open it in VS Code
+- Open VS Code built-in Terminal and paste 
+dotnet new console
+- Two files should be created, one named Program.cs and yourFolderName.csproj
+- Open VS Code built-in Terminal again and paste 
+dotnet add package Raylib-cs
+-If the download is successful, you can copy-paste the files and run them
+
+Note: The same process works for Mac
