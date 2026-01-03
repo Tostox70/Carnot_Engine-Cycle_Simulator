@@ -1,3 +1,4 @@
+
 ﻿using System.Numerics;
 using Raylib_cs;
 using static Raylib_cs.Raylib;
@@ -17,6 +18,7 @@ public class Program
         // Initialize Raylib window
         InitWindow(screenWidth, screenHeight, "cE Simulator v1.3");
         SetTargetFPS(TARGET_FPS);
+        Points.SetFrameRate(TARGET_FPS);
 
         // Load and set the window icon
         Image Logo = LoadImage("assets/logo.png");
@@ -216,8 +218,8 @@ public class Program
             Lines.DrawTemperatureDisplay(thPosition, thSize, TH, hoverTH.txtColor, "TH");
             hoverTH.Draw("Hot reservoir's\ntemperature in\nKelvin");
 
-            DrawText($"Cycle duration: {cycleSeconds * 4}s", screenWidth / 100 * 50, 5, 15, new Color(255, 255, 255, 100));
-            DrawText($"Calculations per cycle: {Points.framesPerStage * 4}", screenWidth / 100 * 48, 25, 15, new Color(255, 255, 255, 100)); 
+            DrawText($"Cycle duration: {cycleSeconds * 4}s", screenWidth / 100 * 45, 5, 20, new Color(255, 255, 255, 110));
+            DrawText($"Calculations per cycle: {Points.framesPerStage * 4}", screenWidth / 100 * 43, 25, 20, new Color(255, 255, 255, 110)); 
 
             Graph.Draw();
             Graph.DrawTracer(PVpointGraph, TSpointGraph);
