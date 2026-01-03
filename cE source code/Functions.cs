@@ -75,7 +75,6 @@ public static class Functions
 
     public static bool TryGetNumberKeyAsFloat(GraphManager graph, out float seconds)
     {
-        int screenWidth = Program.screenWidth;
 
         seconds = 0f;
         int key = GetKeyPressed();
@@ -99,3 +98,4 @@ public static class Functions
         return true;
     }
 }
+
