@@ -1,5 +1,5 @@
-- It is advised to use VS Code to run the files, since the process with other IDEs are unknown (to me)
-- Install .NET Install tool and C# extensions
+- It is advised to use VS Code to run the files, since the process with other IDEs and editors is unknown (to me)
+- Install the .NET Install tool and the C# extensions
 - Create an empty folder and open it in VS Code
 - Open VS Code built-in Terminal and paste 
 dotnet new console
