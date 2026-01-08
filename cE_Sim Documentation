@@ -9,7 +9,7 @@ Documentation: Formulas and Step Integration Method
 
 Volumes for the Carnot cycle stages:
 	•	Stage 1: V1 = 0.01 m^3
-	•	Stage 2: V2 = 2 * V1
+	•	Stage 2: V2 = ratio * V1
 	•	Stage 3: V3 = V2 * (TH / TC)^(1 / gamma)
 	•	Stage 4: V4 = V1 * (TH / TC)^(1 / gamma)
 
@@ -62,7 +62,7 @@ The method divides the cycle into discrete steps based on the target FPS and tim
 Step size: deltaT = timePerStage / frameRate
 
 Where:
-	•	timePerStage = Duration of each stage in seconds (fixed to 2sec)
+	•	timePerStage = Duration of each stage in seconds
 	•	frameRate = Target frames per second (fixed to 60fps)
 
 ⸻
