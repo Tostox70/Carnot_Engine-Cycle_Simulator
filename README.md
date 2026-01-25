@@ -65,3 +65,8 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 **CREDITS**
 
 Thanks to AngeTheGreat and AXgamesoft for inspiring me to make this simulator.
+<br><br>
+
+**SUPPORT**
+
+Buy me a [coffee](https://ko-fi.com/tostox70)
