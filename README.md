@@ -1,6 +1,14 @@
 # Carnot_Engine-Cycle_Simulator
-A real-time Carnot engine simulator that visualizes the full cycle with PV and TS diagrams, a moving piston animation, and calculated outputs like efficiency and work. Designed for students and physics enthusiasts who want an intuitive way to explore thermodynamics.
-<br><br>
+
+The Carnot cycle is the most efficient theoretical heat engine cycle. This simulator lets you explore how temperature, volume, and pressure interact in real-time with:
+- 📊 Live PV and TS diagrams
+- 🔄 Animated piston showing the cycle
+- ⚙️ Real-time parameter adjustment
+- 📈 Calculated efficiency and work output
+
+Perfect for physics students, teachers, and anyone curious about thermodynamics!
+
+---
 
 **YOU CAN DOWNLOAD IT (WINDOWS)
 [HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.3/cE_Sim_zipped.zip)**
@@ -12,53 +20,41 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 
 <img width="1354" height="946" alt="image" src="https://github.com/user-attachments/assets/e3bf6fd8-a43c-42e1-bc2b-c5c1944d7f5e" />
 
-<br><br>
-**FEATURES** (v1.3)
 
--Real-time PV and TS graphs
+## ✨ Features (v1.3)
 
--Animated piston following the Carnot cycle
+- **Real-time Visualization**
+  - PV and TS thermodynamic diagrams
+  - Animated piston following the Carnot cycle
 
--Adjustable parameters:
+- **Adjustable Parameters**
+  - Hot and cold reservoir temperatures
+  - Volume ratios (v1 and v2)
+  - Number of moles
+  - Heat capacity ratio (γ)
+  - Cycle duration
 
--Hot and cold reservoir temperatures
+- **Calculations**
+  - Total work output
+  - Thermal efficiency
+  - Real-time computation display
+---
 
--volume ratios between v1 and v2
+## 🎮 How to Use
 
--Number of moles
+- Hover over parameters to select them
+- Use arrow keys to adjust values
+- Spacebar to pause/resume
+- Keys 1, 2, 3 to change cycle speed
 
--Heat capacity ratio (γ)
+---
 
--cycle duration in seconds.
+## 🛠️ Tech Stack
 
--Realistic (not guaranteed perfect) calculations like total work and thermal efficiency
+- C# (.NET)
+- Raylib
 
--Clear UI that reacts to user input
-
--number of calculations per cycle shown
-<br><br>
-
-**HOW TO USE**
-
--Hover over any parameter box (temperature, ratio, moles, γ).
-
--The value turns gray.
-
--Press Right / Up arrow to increase the value.
-
--Press Left / Down arrow to decrease it.
-
--Press spacebar to pause/resume the cycle
-
--Press 1,2, or 3 key to change the cycle duration to 2,8 or 20 seconds respectively.
-<br><br>
-
-**TECH STACK**
-
--C# (.NET)
-
--Raylib (raylib-cs)
-<br><br>
+---
 
 **FUTURE DEVELOPMENT**
 
@@ -70,6 +66,8 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 Thanks to AngeTheGreat and AXgamesoft for inspiring me to make this simulator.
 <br><br>
 
-**SUPPORT**
+---
+
+## ☕ Support
 
 Buy me a [coffee](https://ko-fi.com/tostox70)
