@@ -12,7 +12,7 @@ Perfect for physics students, teachers, and anyone curious about thermodynamics!
 
 ## 🎬 Demo
 
-![Carnot Cycle Simulator Demo](./assets/cEgif.gif)
+![Carnot Cycle Simulator Demo](./screenshots/cEgif.gif)
 
 ---
 
