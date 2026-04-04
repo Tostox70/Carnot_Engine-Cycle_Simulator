@@ -10,6 +10,12 @@ Perfect for physics students, teachers, and anyone curious about thermodynamics!
 
 ---
 
+## 🎬 Demo
+
+![Carnot Cycle Simulator Demo](./assets/cEgif.gif)
+
+---
+
 **YOU CAN DOWNLOAD IT (WINDOWS)
 [HERE](https://github.com/Tostox70/Carnot_Engine-Cycle_Simulator/releases/download/v1.3/cE_Sim_zipped.zip)**
 
@@ -17,8 +23,6 @@ Perfect for physics students, teachers, and anyone curious about thermodynamics!
 
 (Full code is under the cE source code)
 <br><br>
-
-<img width="1354" height="946" alt="image" src="https://github.com/user-attachments/assets/e3bf6fd8-a43c-42e1-bc2b-c5c1944d7f5e" />
 
 
 ## ✨ Features (v1.3)
