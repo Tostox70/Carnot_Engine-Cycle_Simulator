@@ -8,6 +8,9 @@ A real-time Carnot engine simulator that visualizes the full cycle with PV and T
 **FOR MAC DOWNLOAD, GO TO Releases SECTION**
 
 (Full code is under the cE source code)
+<br><br>
+
+<img width="1354" height="946" alt="image" src="https://github.com/user-attachments/assets/e3bf6fd8-a43c-42e1-bc2b-c5c1944d7f5e" />
 
 <br><br>
 **FEATURES** (v1.3)
