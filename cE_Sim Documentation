@@ -10,8 +10,8 @@ Documentation: Formulas and Step Integration Method
 Volumes for the Carnot cycle stages:
 	•	Stage 1: V1 = 0.01 m^3
 	•	Stage 2: V2 = ratio * V1
-	•	Stage 3: V3 = V2 * (TH / TC)^(1 / gamma)
-	•	Stage 4: V4 = V1 * (TH / TC)^(1 / gamma)
+	•	Stage 3: V3 = V2 * (TH / TC)^(1 / (gamma-1))
+	•	Stage 4: V4 = V1 * (TH / TC)^(1 / (gamma-1))
 
 Where:
 	•	TH = Hot reservoir temperature
@@ -85,5 +85,3 @@ Four stages of the Carnot cycle:
 	•	Visuals: graphical elements updated based on current state
 
 
-
-**ADDITIONAL INFORMATION WILL BE ADDED AS NEEDED**
